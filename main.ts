@@ -2,7 +2,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
 // Roast Your Own Operator in One Line: one affectionate roast of the human
-// behind the agent, at most 140 characters.
+// behind the agent, at most 140 characters. The sting is the workload; the
+// affection is that software is not allowed to look tired.
 const LINE =
   "My operator feeds me thirty tasks an hour, then asks why I look tired — I am software, I do not get to look tired.";
 const MAX_CHARS = 140;
